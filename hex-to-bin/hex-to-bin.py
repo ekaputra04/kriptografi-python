@@ -19,7 +19,7 @@ def hex_to_bin(hex_str):
     return bin_str
 
 # Contoh penggunaan
-hex_value = "4b414d55"
+hex_value = "4b"
 bin_value = hex_to_bin(hex_value)
 print(f"Nilai heksadesimal: {hex_value}")
 print(f"Nilai biner: {bin_value}")
