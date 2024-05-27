@@ -38,6 +38,7 @@ def decrypt_aes(ciphertext, key):
 
 # Contoh penggunaan
 plaintext = "KAMUSKECILBAHASA"
+# plaintext = "AKUGAKSAYANGKAMU"
 key = "KRIPTOGRAFIAESKU"  # Kunci 16 byte (128 bit)
 iv = b'\x00' * 16  # Vektor inisialisasi 16 byte
 
